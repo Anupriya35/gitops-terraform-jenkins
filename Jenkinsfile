@@ -10,7 +10,7 @@ try {
   }
 
   // Run terraform init
-  stage('init') {
+  /*stage('init') {
     node {
       withCredentials([[
         $class: 'AmazonWebServicesCredentialsBinding',
@@ -88,4 +88,4 @@ finally {
   if (currentBuild.result == 'SUCCESS') {
     currentBuild.result = 'SUCCESS'
   }
-}
+}*/
